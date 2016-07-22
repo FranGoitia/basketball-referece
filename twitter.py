@@ -9,8 +9,8 @@ class BasketballTwitterMatch():
         self.soup = BeautifulSoup(rv.text)
 
     def gen_player_twitters(self):
-    	twitter_list = self.soup.find('div', {'id': 'div_stats'})
-    	headers = [th.text for th in twitter_list.find_all('th')]
+        twitter_list = self.soup.find('div', {'id': 'div_stats'})
+        headers = [th.text for th in twitter_list.find_all('th')]
         rows = [row for row in twitter_list.tbody.find_all('tr')]
 
         self.players_ = {}
