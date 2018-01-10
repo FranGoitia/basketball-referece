@@ -46,7 +46,7 @@ class NbaBRefMatch(BRefMatch):
             for metric, stat in zip(metrics, stats):
                 stat = stat if stat != '' else None
                 if metric == 'MP':
-                    stat = stat if stat not in [None, 'Did Not Play', 'Player Suspended'] else '0.0'
+                    stat = stat if stat not in [None, 'Did Not Play', 'Player Suspended', 'Did Not Dress', 'Not With Team'] else '0.0'
                     stat = convert_to_min(stat)
                 stat = float(stat) if stat else None
                 self.match_[team]['players'][name][metric] = stat
