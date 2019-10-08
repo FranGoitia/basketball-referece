@@ -1,9 +1,9 @@
 LEAGUES_TO_PATH = {
-    'nba': 'http://www.basketball-reference.com/leagues/NBA_{0}_games.html',
-    'acb': 'http://www.basketball-reference.com/euro/spain-liga-acb/{0}-schedule.html',
-    'lnb': 'http://www.basketball-reference.com/euro/france-lnb-pro-a/{0}-schedule.html',
-    'seriea': 'http://www.basketball-reference.com/euro/italy-basket-serie-a/{0}-schedule.html',
-    'greek': 'http://www.basketball-reference.com/euro/greek-basket-league/{0}-schedule.html',
+    'nba': 'https://www.basketball-reference.com/leagues/NBA_{0}_games.html',
+    'acb': 'https://www.basketball-reference.com/euro/spain-liga-acb/{0}-schedule.html',
+    'lnb': 'https://www.basketball-reference.com/euro/france-lnb-pro-a/{0}-schedule.html',
+    'seriea': 'https://www.basketball-reference.com/euro/italy-basket-serie-a/{0}-schedule.html',
+    'greek': 'https://www.basketball-reference.com/euro/greek-basket-league/{0}-schedule.html',
 }
 
 
@@ -502,11 +502,11 @@ LEAGUES_TO_COUNTRIES = {
 
 
 LEAGUES_TO_PATH = {
-    'nba': 'http://www.basketball-reference.com/leagues/NBA_{0}_games.html',
-    'acb': 'http://www.basketball-reference.com/euro/spain-liga-acb/{0}-schedule.html',
-    'lnb': 'http://www.basketball-reference.com/euro/france-lnb-pro-a/{0}-schedule.html',
-    'seriea': 'http://www.basketball-reference.com/euro/italy-basket-serie-a/{0}-schedule.html',
-    'greek': 'http://www.basketball-reference.com/euro/greek-basket-league/{0}-schedule.html',
+    'nba': 'https://www.basketball-reference.com/leagues/NBA_{0}_games.html',
+    'acb': 'https://www.basketball-reference.com/euro/spain-liga-acb/{0}-schedule.html',
+    'lnb': 'https://www.basketball-reference.com/euro/france-lnb-pro-a/{0}-schedule.html',
+    'seriea': 'https://www.basketball-reference.com/euro/italy-basket-serie-a/{0}-schedule.html',
+    'greek': 'https://www.basketball-reference.com/euro/greek-basket-league/{0}-schedule.html',
 }
 
 

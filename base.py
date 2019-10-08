@@ -117,7 +117,7 @@ class BRefTeam():
     def __init__(self, name, page):
         self.name = name
         self.page = page
-        rv = requests.get('http://www.basketball-reference.com{0}'.format(page))
+        rv = requests.get('https://www.basketball-reference.com{0}'.format(page))
         self.soup = BeautifulSoup(rv.text)
 
     def gen_players_info(self):
