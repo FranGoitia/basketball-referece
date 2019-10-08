@@ -14,7 +14,7 @@ logger = logging.getLogger('stringer-bell')
 
 class NbaBRefMatch(BRefMatch):
 
-    uri_base = 'http://www.basketball-reference.com/boxscores/{0}.html'
+    uri_base = 'https://www.basketball-reference.com/boxscores/{0}.html'
 
     def _read_table(self, table, last_col):
         """
